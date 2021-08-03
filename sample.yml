@@ -1,0 +1,12 @@
+image_data_dir: path/to/img/dir
+# the following paths are relative to images_data_dir
+fnames:
+      fnames_fname: fnames.txt
+      fnames_label: labels.txt
+      fnames_attr: attr.txt
+synthetic:
+       edit_method: interface_edits
+       expression: smile.pkl
+       pose: pose.pkl
+
+
